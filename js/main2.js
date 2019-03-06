@@ -1,33 +1,27 @@
 
 window.addEventListener("load", function () {
     if(document.getElementsByClassName("game")[0].clientHeight > window.innerHeight){
-        //document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerHeight+"px;");
         document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerHeight+"px;");
         
     } else if(document.getElementsByClassName("game")[0].clientHeight <= window.innerHeight){
-        //document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerHeight+"px;");
         document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerHeight+"px;");
     }
 
     if(document.getElementsByClassName("game")[0].clientWidth > window.innerWidth){
         //document.getElementsByClassName("game")[0].removeAttribute("style");
-        //document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerWidth+"px;");
         document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerWidth+"px;");
     }
     
     window.addEventListener("resize", function(){
         if(document.getElementsByClassName("game")[0].clientHeight > window.innerHeight){
-           // document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerHeight+"px;");
             document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerHeight+"px;");
             
         } else if(document.getElementsByClassName("game")[0].clientHeight <= window.innerHeight){
-            //document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerHeight+"px;");
             document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerHeight+"px;");
         }
 
         if(document.getElementsByClassName("game")[0].clientWidth > window.innerWidth){
             document.getElementsByClassName("game")[0].removeAttribute("style");
-            //document.getElementsByClassName("game")[0].setAttribute("style", "height:"+window.innerWidth+"px;");
             document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerWidth+"px;");
         }
     });
