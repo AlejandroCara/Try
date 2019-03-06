@@ -8,7 +8,6 @@ window.addEventListener("load", function () {
     }
 
     if(document.getElementsByClassName("game")[0].clientWidth > window.innerWidth){
-        //document.getElementsByClassName("game")[0].removeAttribute("style");
         document.getElementsByClassName("game")[0].setAttribute("style", "width:"+window.innerWidth+"px;");
     }
     
