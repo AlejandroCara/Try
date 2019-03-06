@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
 function loadScripts(urls, callback)
 {
 	let scriptsLoaded = 0;
-	
+	//8888888
 	for (var i =  0; i < urls.length; i++) 
 	{
 	    var script = document.createElement("script");
