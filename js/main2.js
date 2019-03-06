@@ -39,7 +39,6 @@ function loadScripts(urls, callback)
 * Quan s'hagin carregat tots els scripts necessaris pel correcte funcionament del joc ja es pot instanciar
 * un objecte 'game' i inicialitzar-lo, és a dir, començar a jugar!
 * Els paràmetres que passo al mètode initialize() són les mides actual de la finestra (navegador). En la descripció
-* del mètode s'explica com s'opera amb aquests paràmetres.
 */
 function init(length)
 {
