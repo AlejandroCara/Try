@@ -23,7 +23,7 @@ function loadScripts(urls, callback)
 						callback();
 	            }
 	        };
-	    } else {  //Others
+	    } else { 
 	        script.onload = function(){
 	            scriptsLoaded++;
 				if (scriptsLoaded == urls.length)
